@@ -1,0 +1,279 @@
+{
+    "data": {
+        "text": {
+            "home": "Have more fun, enjoy more play, and get more from Discord. Supercharge your Discord server with Blip."
+        },
+        "commands": [
+            {
+                "name": "welcome channel",
+                "usage": "/welcomechannel <#text channel>",
+                "description": "Changes the channel where Blip sends the welcome card once a member joins.",
+                "type": "util"
+            },
+            {
+                "name": "leave channel",
+                "usage": "/leavechannel <#text_channel>",
+                "description": "Changes the channel where Blip sends the leave card once a member leaves.",
+                "type": "util"
+            },
+            {
+                "name": "level enable",
+                "usage": "/levelenable <enable/disable>",
+                "description": "Changes wether the level system for the current guild is enabled or not.",
+                "type": "util"
+            },
+            {
+                "name": "levelup message",
+                "usage": "/levelupmsg <new level up message>",
+                "description": "Changes the message that shows when a user levels up! use {user} for user and {level} for level.",
+                "type": "util"
+            },
+            {
+                "name": "levelup delay",
+                "usage": "/levelupdelay <time e.g 1hr, 1m>",
+                "description": "Changes the delay after which the user gets random XP added to their profile.",
+                "type": "util"
+            },
+            {
+                "name": "lockjoin",
+                "usage": "/lockjoin <on/off>",
+                "description": "Locks the guilds and stops members from joining your guild further.",
+                "type": "util"
+            },
+            {
+                "name": "ask",
+                "usage": "/ask <question>",
+                "description": "Ask Blip a question! cuz Blip smort",
+                "type": "fun"
+            },
+            {
+                "name": "how gay",
+                "usage": "/howgay {@member}",
+                "description": "Check how gay you are! (this is very accurate.)",
+                "type": "fun"
+            },
+            {
+                "name": "joke",
+                "usage": "/joke",
+                "description": "Grabs joke the internet and shows it to you.",
+                "type": "fun"
+            },
+            {
+                "name": "memes",
+                "usage": "/meme",
+                "description": "Grabs a random meme from reddit API.",
+                "type": "fun"
+            },
+            {
+                "name": "rank",
+                "usage": "/rank {@member}",
+                "description": "Check your xp, level on the current server!",
+                "type": "fun"
+            },
+            {
+                "name": "clyde",
+                "usage": "/clyde <text>",
+                "description": "Make clyde say something! Not the actual clyde.",
+                "type": "images"
+            },
+            {
+                "name": "invert",
+                "usage": "/invert {@member}",
+                "description": "Invert someone's or your own Avatar",
+                "type": "fun"
+            },
+            {
+                "name": "server card",
+                "usage": "/servercard",
+                "description": "Shows basic details of the server in a card form.",
+                "type": "fun"
+            },
+            {
+                "name": "slap",
+                "usage": "/slap{@member}",
+                "description": "Slap someone or get slapped by Blip!",
+                "type": "fun"
+            },
+            {
+                "name": "trigger",
+                "usage": "/trigger {@member}",
+                "description": "Trigger someone ore yourself!",
+                "type": "fun"
+            },
+            {
+                "name": "trump",
+                "usage": "/trump {@member}",
+                "description": "Make trump tweet something?",
+                "type": "fun"
+            },
+            {
+                "name": "wasted",
+                "usage": "/wasted {@member}",
+                "description": "Wasted.",
+                "type": "fun"
+            },
+            {
+                "name": "avatar",
+                "usage": "/avatar {@member}",
+                "description": "View someone's or your own avatar.",
+                "type": "misc"
+            },
+            {
+                "name": "bot stats",
+                "usage": "/stats",
+                "description": "See some basic information about Blip",
+                "type": "misc"
+            },
+            {
+                "name": "commands",
+                "usage": "/commands",
+                "description": "This is a help menu from where you can view all the commands!",
+                "type": "misc"
+            },
+            {
+                "name": "ping",
+                "usage": "/ping",
+                "description": "Pong! Get Blip's latency in milli-seconds",
+                "type": "misc"
+            },
+            {
+                "name": "server info",
+                "usage": "/serverinfo",
+                "description": "View basic information about the server.",
+                "type": "misc"
+            },
+            {
+                "name": "user info",
+                "usage": "/userinfo {@member}",
+                "description": "View basic information about a user or yourself.",
+                "type": "misc"
+            },
+            {
+                "name": "weather",
+                "usage": "/weather <city name>",
+                "description": "Get weather of a specific City!",
+                "type": "misc"
+            },
+            {
+                "name": "trump",
+                "usage": "/trump {@member}",
+                "description": "Make trump tweet something?",
+                "type": "misc"
+            },
+            {
+                "name": "afk",
+                "usage": "/afk <reason e.g sleeping>",
+                "description": "Sets your afk and notifies the person who pings you about the reason.",
+                "type": "misc"
+            },
+            {
+                "name": "esnipe",
+                "usage": "/esnipe",
+                "description": "Shows the previous edited message in the current channel.",
+                "type": "misc"
+            },
+            {
+                "name": "snipe",
+                "usage": "/snipe",
+                "description": "Shows the previous deleted message in the current channel.",
+                "type": "misc"
+            },
+            {
+                "name": "24/7",
+                "usage": "/247",
+                "description": "Make Blip stay in a voice channel 24/7.",
+                "type": "music"
+            },
+            {
+                "name": "autoplay",
+                "usage": "/autoplay",
+                "description": "Finds the best similar next song to the current one and plays it next in the queue.",
+                "type": "music"
+            },
+            {
+                "name": "filter",
+                "usage": "/filter <vibrato, karoke, Tremelo, vaporwave, nightcore, party, radio, pop, bassboost, bass, treblebass, soft, off>",
+                "description": "Apply filters to your current playing music",
+                "type": "music"
+            },
+            {
+                "name": "join",
+                "usage": "/join",
+                "description": "Makes Blip join your current voice channel.",
+                "type": "music"
+            },
+            {
+                "name": "leave",
+                "usage": "/leave",
+                "description": "Disconnects Blip from your current voice channel and clears the queue.",
+                "type": "music"
+            },
+            {
+                "name": "loop",
+                "usage": "/loop <song/queue>",
+                "description": "Loops the current playing song/queue.",
+                "type": "music"
+            },
+            {
+                "name": "now playing",
+                "usage": "/nowplaying",
+                "description": "Shows the current playing music with extra details.",
+                "type": "music"
+            },
+            {
+                "name": "pause",
+                "usage": "/pause",
+                "description": "Pauses your current playing music.",
+                "type": "music"
+            },
+            {
+                "name": "resume",
+                "usage": "/247",
+                "description": "Resumes your current paused music.",
+                "type": "music"
+            },
+            {
+                "name": "play",
+                "usage": "/play <song name/url, playlist url> {source e.g youtube/soundcloud}",
+                "description": "Allows you to play songs from youtube/soundcloud. (Songs played from other sources such as spotify are coverted to youtube tracks and then played.)",
+                "type": "music"
+            },
+            {
+                "name": "queue",
+                "usage": "/queue",
+                "description": "Shows the current queue.",
+                "type": "music"
+            },
+            {
+                "name": "remove",
+                "usage": "/remove <song number>",
+                "description": "Remove a un wanted song from your playlist.",
+                "type": "music"
+            },
+            {
+                "name": "seek",
+                "usage": "/seek <timestamp e.g 0:18:21>",
+                "description": "Make Blip stay in a voice channel 24/7",
+                "type": "music"
+            },
+            {
+                "name": "shuffle",
+                "usage": "/shuffle",
+                "description": "Shuffles the queue.",
+                "type": "music"
+            },
+            {
+                "name": "skip",
+                "usage": "/skip",
+                "description": "Skips the current playing music.",
+                "type": "music"
+            },
+            {
+                "name": "volume",
+                "usage": "/volume <volume level 1-100>",
+                "description": "Changes the volume of music player.",
+                "type": "music"
+            }
+        ]
+    }
+}
