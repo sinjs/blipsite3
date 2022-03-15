@@ -245,6 +245,12 @@
                 "type": "music"
             },
             {
+                "name": "radio",
+                "usage": "/radio",
+                "description": "Listen to online Radio with Blip! get a list of radio stations when typing /radio",
+                "type": "music"
+            }
+            {
                 "name": "remove",
                 "usage": "/remove <song number>",
                 "description": "Remove a un wanted song from your playlist.",
